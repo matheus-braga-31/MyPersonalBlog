@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
 export default function App (){
   return(
     <>
+    <GlobalStyle/>
     <Home/>
     <About/>
     <Works/>
